@@ -1,0 +1,24 @@
+// components
+@import "theme/_mixins";
+@import "theme/columns";
+@import "theme/buttons";
+@import "theme/navbar";
+@import "theme/jumbotrons";
+@import "theme/navs";
+@import "theme/text";
+
+.navbar-image img {
+	max-width: 215px;
+}
+
+#main-jumbo {
+	padding: 0;
+}
+
+#body-content {
+	margin-bottom: 30px;
+}
+
+#navbar-title .navbar-text {
+	margin-left: 125px;
+}
